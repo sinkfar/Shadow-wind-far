@@ -5,15 +5,24 @@
 
 */
 
-//#include "File read and write.h"
-//
-//void User_login_date_write(void)//用户注册模块的数据写入
-//{
-//	char Account[10];
-//	//scanf("%s", &Account);
-//	FILE* fp;
-//	fopen_s(&fp,"Accounr and Password.txt","r+");//打开文件
-//	fprintf(fp,"Account:%s \n", &Account);//将信息写入文件
-//	fclose(fp);//关闭文件
-//
-//}
+
+#include "File read and write.h"
+
+
+/*
+
+*/
+void Write_File()
+{
+	FILE* f;
+	f = fopen("file.txt", "w");
+	if (f != NULL)
+	{
+		printf("打开文件成功\n");
+	}
+	else
+	{
+		printf("打开文件失败\n");
+	}
+	fclose(f);
+}

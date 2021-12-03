@@ -15,8 +15,10 @@
 #include <string.h>
 #include <stdlib.h>
 #include <Windows.h>
+#include <winnt.h>
 
 #include "Frist interface bank.h"
+#include "File read and write.h"
 
  void System_home_view(void);
  void System_home_program(void);

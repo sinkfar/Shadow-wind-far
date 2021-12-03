@@ -14,7 +14,7 @@
 
 		功能：系统首页视图
 */
-void System_home_view(void)//
+void System_home_view(void)
 {
 	printf("/****************************************/\n");
 	printf("              Sinkfar System              \n");
@@ -44,6 +44,7 @@ void System_home_program(void)
 		switch (userchoose)
 		{
 			case 1:
+				Write_File();
 				break;
 			case 2:
 				break;

@@ -146,6 +146,8 @@ void User_login_program(viod)
 				}
 				break;
 			case 2:
+				Write_File();
+				Sleep(1000);
 				break;
 			case 3:
 				break;
